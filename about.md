@@ -3,9 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
+Hi, I'm Chris, and you've found my website.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+In case you're wondering, I am a programmer and Software Engineering student at the University of Victoria.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+My hobbies are rock climbing and programming, and I am a volunteer member of Royal Canadian Marine Search and Rescue Station 33.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I am currently on co-op as a Software Developer at <a href="http://freerunningtech.com">FreeRunning Technologies</a>
