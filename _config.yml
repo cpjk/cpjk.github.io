@@ -2,11 +2,11 @@
 title: cpjk
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
- The website/blog of Chris Kelly, programmer and climber in Victoria, BC
+ "The website/blog of Chris Kelly, programmer and climber in Victoria, BC
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: cpjkelly
+github_username: cpjk
 
 # Build settings
 markdown: kramdown
