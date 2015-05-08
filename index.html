@@ -1,23 +1,33 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chris Kelly</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <meta name="description"
+    content="Programmer and Software Engineering student at the University of Victoria." />
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+        Chris Kelly
+      </div>
+      <div class="bio-container">
+        <div id="bio">
+          <div class="bio-para">
+            I am a programmer and Software Engineering student at the University of Victoria.
+          </div>
+          <div class="bio-para">
+            My hobbies are rock climbing and programming, and I am a volunteer member of Royal Canadian Marine Search and Rescue Station 33.
+          </div>
+          <div class="bio-para">
+          </div>
+        </div>
+      </div>
+      <div id="navigation">
+        <ul>
+          <li id="github_link"><a href="https://github.com/cpjk"><img src="images/GitHub-Mark-32px.png"></a></li>
+        </ul>
+      </div><!-- end of navigation -->
+    </div><!-- end of page -->
+  </body>
+</html>

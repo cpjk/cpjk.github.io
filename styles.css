@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic);
+
+#page{
+    text-align: center;
+    min-width: 550px;
+    font-weight: 300;
+    font-family: "open sans", sans-serif;
+}
+
+#header {
+    width: 500px;
+    margin: 10px auto 10px auto;
+    font-size: 300%;
+    border-bottom: solid 2px;
+}
+
+#navigation {
+    margin: 10px auto 10px auto;
+    width: 500px;
+    padding-right: 35px;
+}
+
+li {
+    margin: 10px 10px 10px 10px;
+    font-size: 150%;
+    font-weight: 310;
+    display: inline;
+}
+
+#page a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#page a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#bio {
+    text-align: center;
+    font-size: 125%;
+    color: #444;
+}
+
+.bio-container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.bio-para {
+  margin-bottom: 5px
+}
+
+a {
+   font-style: italic; 
+}

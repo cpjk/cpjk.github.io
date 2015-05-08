@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic);
+
+body {
+    background-image: url("images/ticks.png");
+}
+
+#page{
+    text-align: center;
+    min-width: 800px;
+}
+
+#header {
+    margin: 10px auto 10px auto;
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    font-size: 300%;
+}
+
+#bio {
+    margin: 10px auto 10px auto;
+    width: 800px;
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    font-size: 200%;
+}
