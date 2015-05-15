@@ -21,7 +21,7 @@
     padding-right: 35px;
 }
 
-li {
+li#github_link {
     margin: 10px 10px 10px 10px;
     font-size: 150%;
     font-weight: 310;
@@ -31,6 +31,14 @@ li {
 #page a:link{
     text-decoration: none;
     color: black;
+}
+
+div.projects {
+  margin-top: 20px;
+}
+
+div.projects-title {
+  font-weight: 400;
 }
 
 #page a:visited{
