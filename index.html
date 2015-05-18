@@ -1,42 +1,80 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Chris Kelly</title>
     <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="octicons/octicons.css">
     <meta name="description"
-    content="Programmer and Software Engineering student at the University of Victoria." />
+          content="Programmer and Software Engineering student at the University of Victoria." />
   </head>
   <body>
-    <div id="page">
-      <div id="header">
+    <div class="page">
+      <div class="header">
         Chris Kelly
       </div>
-      <div class="bio-container">
-        <div id="bio">
-          <div class="bio-para">
-            I am a programmer and rock climber in Victoria, BC, Canada
+      <div class="navigation">
+        <span class="nav-link-container">
+          <a class="nav-link" href="https://github.com/cpjk">
+            <span class="mega-octicon octicon-octoface"></span>
+            GITHUB
+          </a>
+        </span>
+        <span class="nav-link-container resume-container">
+          <a class="nav-link" href="resume.pdf">
+            <span class="mega-octicon octicon-file-text"></span>
+            RESUME
+          </a>
+        </span>
+      </div><!-- end of navigation -->
+      <div class="container">
+        <div class="section about">
+          <div class="title">
+            About
           </div>
-          <div class="bio-para">
-            I am currently a Software Engineering student at the University of Victoria.
-          </div>
-          <div class="bio-para">
-            I love Ruby, Elixir, and engineering elegant solutions to hard problems.
-          </div>
-          <div class="projects">
-            <div class="projects-title">
-              Open-source projects:
+          <div class="section-body">
+            <div class="about-para">
+              I am a programmer and rock climber in Victoria, BC, Canada
             </div>
+            <div class="about-para">
+              I am currently a Software Engineering student at the University of Victoria.
+            </div>
+            <div class="about-para">
+              I love Ruby, Elixir, and engineering elegant solutions to hard problems.
+            </div>
+            <div class="about-para">
+              My hobbies are programming, rock climbing, and learning.
+            </div>
+            <div class="about-para">
+              I am interested in web development, computer networks, embedded systems, and space.
+            </div>
+          </div>
+        </div>
+        <div class="section projects">
+          <div class="title">
+            Open-source work
+          </div>
+          <div class="section-body">
             <li class="project-link"><a href="https://github.com/cpjk/canary">Canary</a> - An authorization and resource-loading library in Elixir for Plug applications</li>
           </div>
-          <div class="bio-para">
+        </div>
+        <div class="section other-work">
+          <div class="title">
+            Other Work
+          </div>
+          <div class="section-body">
+            <li>
+              <a href="http://www.csdc.uvic.ca/">UVic ECOSat satellite design team</a> - I am developing digital signal processing (DSP) software for the modem of a low-Earth-orbit communications micro-satellite.
+            </li>
+          </div>
+        </div>
+        <div class="section papers">
+          <div class="title">
+            Papers
+          </div>
+          <div class="section-body">
+            <li class="paper-link">Suffix tree searcher: exploration of common substrings in large DNA sequence sets<a href="http://www.biomedcentral.com/1756-0500/7/466"> - BMC Research Notes</a></li>
           </div>
         </div>
       </div>
-      <div id="navigation">
-        <ul>
-          <li id="github_link"><a href="https://github.com/cpjk"><img src="images/GitHub-Mark-32px.png"></a></li>
-        </ul>
-      </div><!-- end of navigation -->
-    </div><!-- end of page -->
+    </div>
   </body>
 </html>
