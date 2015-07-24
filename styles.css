@@ -8,8 +8,9 @@
 }
 
 .header {
-  width: 500px;
+  width: 700px;
   margin: 10px auto 30px auto;
+  padding-bottom: 20px;
   font-size: 300%;
   border-bottom: solid 2px;
 }
