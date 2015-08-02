@@ -22,7 +22,7 @@
 }
 
 .page a:link {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
 }
 
@@ -61,6 +61,8 @@ div.title {
   margin: 0 auto;
   font-size: 20px;
   max-width: 600px;
+  color: 44444;
+  text-align: left;
 }
 
 .about-para {
