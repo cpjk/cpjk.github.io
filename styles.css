@@ -1,5 +1,5 @@
 html {
-  background-image: 'images/ghost_pokemon.gif';
+  background-image: url('images/ghost_pokemon.gif');
   background-size: 100% 100%;
 }
 
