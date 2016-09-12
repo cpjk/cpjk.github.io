@@ -1,74 +1,26 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic);
+html {
+  background-image: 'images/ghost_pokemon.gif';
+  background-size: 100% 100%;
+}
 
-.page {
+div.centre-block {
+  margin-top: 100px;
   text-align: center;
-  min-width: 550px;
-  font-weight: 300;
-  font-family: "open sans", sans-serif;
+}
+span {
+  font-family: monospace;
+  color: deeppink;
+}
+span.name {
+  font-size: 200px;
+  color: chartreuse;
 }
 
-.header {
-  width: 700px;
-  margin: 10px auto 30px auto;
-  padding-bottom: 20px;
-  font-size: 300%;
-  border-bottom: solid 2px;
-}
-
-.navigation {
-  margin: 10px auto 10px auto;
-  width: 500px;
-  height: 50px
-}
-
-.page a:link {
-  text-decoration: underline;
-  color: black;
-}
-
-div.projects {
-}
-
-.nav-link {
-  font-style: normal;
-  font-size: 25px;
-}
-
-.nav-link-container {
-  padding-top: 5px;
-}
-
-.resume-container {
-  padding-left: 10px;
-}
-
-div.title {
-  font-weight: 400;
-  font-size: 25px;
-  margin: 0 0 10px 0;
-}
-
-.page a:visited{
-  text-decoration: none;
-  color: black;
-}
-
-.section {
-  margin: 0 0 20px 0;
-}
-
-.container {
-  margin: 0 auto;
-  font-size: 20px;
-  max-width: 600px;
-  color: black;
-  text-align: left;
-}
-
-.about-para {
-  margin: 10px 0 10px 0;
+span.link {
+  font-size: 100px;
+  color: deeppink;
 }
 
 a {
-  font-weight: 600;
+  color: deeppink;
 }
