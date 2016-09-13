@@ -21,12 +21,16 @@
   height: 50px
 }
 
-.page a:link {
-  text-decoration: underline;
+a:link {
   color: black;
 }
 
-div.projects {
+.header-surround-span {
+  padding: 0 12px;
+}
+
+a.no-underline-link {
+  text-decoration: none;
 }
 
 .nav-link {
