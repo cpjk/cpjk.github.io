@@ -16,11 +16,11 @@ span.name {
   color: chartreuse;
 }
 
-span.link {
-  font-size: 100px;
+a {
   color: deeppink;
 }
 
-a {
+div.link {
   color: deeppink;
+  font-size: 3.5em;
 }
