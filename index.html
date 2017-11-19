@@ -35,73 +35,113 @@
           </div>
           <div class="section-body">
             <div class="about-para">
-              Hey, I'm Chris. I'm a software developer and student in Victoria, BC.
+              Hey, I'm Chris! I'm a software developer and student currently working at Shopify in Ottawa, Ontario.
             </div>
             <div class="about-para">
               I love engineering elegant solutions to hard problems, and learning new things.
             </div>
             <div class="about-para">
-              Right now, I am particularly interested in computer networks, web development, and distributed systems.
+              My main interests right now are distributed systems, data stores, and machine learning.
             </div>
             <div class="about-para">
-              My hobbies are programming, rock climbing, hiking, and learning about new topics in computer science, mathematics, and biology.
+              My hobbies are programming, rock climbing, snowboarding, boxing, and learning about new topics in computer science, mathematics, and biology.
             </div>
+          </div>
+        </div>
+        <div class="section current-work">
+          <div class="title">
+            Current Work
+          </div>
+          <div class="section-body">
+            <li>
+              <a href="https://shopify.com/">Shopify</a> - Production Engineering Intern.
+
+              <p>
+              I am working on improving resiliency and scalability by replacing Shopify's original monolithic MySQL architecture.
+              </p>
+              <p>
+              Shopify experiences peak loads of 80K requests per second. In addition, due to flash sales, traffic can spike to orders of magnitude higher than the norm in seconds, for a single shop - not to mention global events such as Black Friday. If this load is not handled correctly, a flash sale on one shop could cause outages for every shop on the platform.
+              </p>
+              <p>
+              Shopify was originally built to use a single MySQL database instance, eventually evolving to use multiple read replicas with a single writer. However, the  MySQL writer was still a single point of failure: if the writer went down, it could result in a platform-wide outage, preventing checkouts and resulting in significant lost revenue across all shops.
+              </p>
+
+              <p>
+              Since most data in our system is tied to a single shop, it was decided that sharding our database was the best solution. This provides resiliency, since traffic is spread across shards, with Shops being moved from shard to shard in order to even out traffic; and scalability, since new shards can be created on-demand to handle new shops. However, some data needs to be shared across shops. The functions relying on this data are, for the most part, being split off into microservices.
+              </p>
+            </li>
           </div>
         </div>
         <div class="section previous-work">
           <div class="title">
-            Previous work
+            Previous Work
           </div>
           <div class="section-body">
             <li>
-              <a href="https://shopify.com/">Shopify</a> - In the winter of 2017, I worked as a software developer intern at Shopify.
+              <a href="https://shopify.com/">Shopify</a> - Winter 2017. Software Developer Intern.
               <p>
-                I worked on increasing the success of new merchants (0 to 3 months). To further this goal, my team and I conducted UX research to identify possible areas of improvement in Shopify's admin.
+                I worked on increasing the success of new merchants and driving growth . To further this goal, my team and I conducted UX research to identify possible areas of improvement in Shopify's admin.
               </p>
               <p>
-                We used the insights gained to design new features, which were released as experiments, and used the data from those experiments to iterate and further improve the admin experience. I was involved in architecting, designing, and implementing these new features, often without precedent at Shopify.
+              I architected, designed, and implemented several new features, which were released as experiments and iterated upon based on user interaction data.
               </p>
             </li>
           </div>
           <div class="section-body">
             <li>
-              <a href="https://shopify.com/">Shopify</a> - In the summer of 2016, I worked as a software developer intern at Shopify.
+              <a href="https://shopify.com/">Shopify</a> - Summer 2016. Software Developer Intern.
               <p>
                 I worked primarily on the merchant-facing "Timeline" interface, which tracks events associated with different resources, such as orders and inventory transfers.
               </p>
-              During my time at Shopify I:
+              During my term I:
               <ul>
-                <li>
-                  Improved Timeline's user interface and user experience.
-                </li>
                 <li>
                   Led research into optimizing Shopify's image compression.
                 </li>
                 <li>
-                  Led the design and implementation of a new protocol for the context-free representation of arbitrary data, and the rendering of that data by arbitrary clients.
+                  Led the design and implementation of a new protocol for representing and rendering accordion content for arbitrary data models.
+                </li>
+                <li>
+                  Developed new Timeline features, and improved Timeline's user interface and user experience.
                 </li>
               </ul>
             </li>
           </div>
           <div class="section-body">
             <li>
-              <a href="https://stembolt.com/">Stembolt</a> - I spent a total of 8 months working as a software developer at Stembolt; a consultancy specializing in scalable, high-volume e-commerce applications, and the team behind the <a class='no-underline-link' href="http://solidus.io">Solidus</a> e-commerce platform.
-              <p>At Stembolt, I worked as a full-stack Ruby on Rails developer, working directly with clients to craft engaging user experiences, and improve application quality and performance.</p>
+              <a href="https://stembolt.com/">Stembolt</a> - Summer 2014 and Winter 2015. Software Developer Intern.
+              <p>
+                Stembolt is a consultancy specializing in scalable, high-volume ecommerce applications, and the team behind the <a class='no-underline-link' href="http://solidus.io">Solidus</a> ecommerce platform.
+              </p>
+              <p>
+                At Stembolt, I worked as a full-stack Ruby on Rails developer, working directly with clients to craft engaging user experiences, and improve application quality and performance.
+              </p>
             </li>
           </div>
           <div class="section-body">
             <li>
-              <a href="https://demonware.net/">Demonware</a> - I spent the Fall of 2015 working as a software developer at Demonware; a networking services company that provides the multiplayer platform and services for games published by Activision Blizzard, including Call of Duty, Diablo III, and Destiny.
-              <p>At Demonware, I worked on improving the systems used to automate the deployment and management of Demonware's datacentre infrastructure.</p>
+              <a href="https://demonware.net/">Demonware</a> - Fall 2015. Software Developer Intern.
+              <p>
+                Demonware is a networking services company that provides the multiplayer platform and services for games published by Activision Blizzard, including Call of Duty, Diablo III, and Destiny.
+              </p>
+              <p>
+                At Demonware, I developed systems to automate the deployment and management of datacentre infrastructure.
+              </p>
             </li>
           </div>
         </div>
         <div class="section projects">
           <div class="title">
-            Open-source work
+            Projects (Open Source)
           </div>
           <div class="section-body">
-            <li class="project-link"><a href="https://github.com/cpjk/canary">Canary</a> - An authorization and resource-loading library written in Elixir</li>
+            <li class="project-link"><a href="https://github.com/cpjk/canary">Canary</a> - An elegant authorization and resource-loading library written in Elixir.</li>
+          </div>
+          <div class="section-body">
+            <li class="project-link"><a href="http://choral.cloud">Choral</a> - A powerful system for combining, organizing, analyzing, and displaying data from any data source you can imagine.</li>
+          </div>
+          <div class="section-body">
+            <li class="project-link"><a href="https://github.com/StanceDetection/stance_detection">Stance Detection</a> - A machine learning model that uses natural language processing (NLP) techniques to classify the opinion of news article relative to a headline.</li>
           </div>
         </div>
         <div class="section other-work">
@@ -110,7 +150,7 @@
           </div>
           <div class="section-body">
             <li>
-              <a href="http://www.csdc.uvic.ca/">UVic ECOSat satellite design team</a> - I am developing digital signal processing (DSP) software for the modem of a low-Earth-orbit communications micro-satellite.
+              <a href="http://www.csdc.uvic.ca/">UVic ECOSat satellite design team</a> - I developed the digital signal processing (DSP) system for the modem of a low-Earth-orbit communications micro-satellite.
             </li>
           </div>
         </div>
