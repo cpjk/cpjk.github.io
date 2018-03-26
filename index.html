@@ -35,7 +35,7 @@
           </div>
           <div class="section-body">
             <div class="about-para">
-              Hey, I'm Chris! I'm a software developer and student currently working at Shopify in Ottawa, Ontario.
+              Hey, I'm Chris! I'm a software developer and software engineering student.
             </div>
             <div class="about-para">
               I love engineering elegant solutions to hard problems, and learning new things.
@@ -48,16 +48,15 @@
             </div>
           </div>
         </div>
-        <div class="section current-work">
+        <div class="section previous-work">
           <div class="title">
-            Current Work
+            Previous Work
           </div>
           <div class="section-body">
             <li>
-              <a href="https://shopify.com/">Shopify</a> - Production Engineering Intern.
-
+              <a href="https://shopify.com/">Shopify</a> - Fall 2017 - Production Engineering Intern.
               <p>
-              I am working on improving resiliency and scalability by replacing Shopify's original monolithic MySQL architecture.
+              I worked to improve the platform's resiliency and scalability by replacing Shopify's original monolithic MySQL architecture.
               </p>
               <p>
               Shopify experiences peak loads of 80K requests per second. In addition, due to flash sales, traffic can spike to orders of magnitude higher than the norm in seconds, for a single shop - not to mention global events such as Black Friday. If this load is not handled correctly, a flash sale on one shop could cause outages for every shop on the platform.
@@ -70,11 +69,6 @@
               Since most data in our system is tied to a single shop, it was decided that sharding our database was the best solution. This provides resiliency, since traffic is spread across shards, with Shops being moved from shard to shard in order to even out traffic; and scalability, since new shards can be created on-demand to handle new shops. However, some data needs to be shared across shops. The functions relying on this data are, for the most part, being split off into microservices.
               </p>
             </li>
-          </div>
-        </div>
-        <div class="section previous-work">
-          <div class="title">
-            Previous Work
           </div>
           <div class="section-body">
             <li>
