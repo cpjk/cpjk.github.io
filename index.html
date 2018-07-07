@@ -35,16 +35,13 @@
           </div>
           <div class="section-body">
             <div class="about-para">
-              Hey, I'm Chris! I'm a software developer and software engineering student.
+              Hey, I'm Chris! I'm a software developer at <a href="https://shopify.com/">Shopify</a> in Ottawa, Ontario.
             </div>
             <div class="about-para">
-              I love engineering elegant solutions to hard problems, and learning new things.
+              I love designing elegant solutions to hard problems, and learning new things.
             </div>
             <div class="about-para">
-              My main interests right now are distributed systems, data stores, and machine learning.
-            </div>
-            <div class="about-para">
-              My hobbies are programming, rock climbing, snowboarding, boxing, and learning about new topics in computer science, mathematics, and biology.
+              My hobbies main hobbies are rock climbing and snowboarding.
             </div>
           </div>
         </div>
@@ -57,16 +54,6 @@
               <a href="https://shopify.com/">Shopify</a> - Fall 2017 - Production Engineering Intern.
               <p>
               I worked to improve the platform's resiliency and scalability by replacing Shopify's original monolithic MySQL architecture.
-              </p>
-              <p>
-              Shopify experiences peak loads of 80K requests per second. In addition, due to flash sales, traffic can spike to orders of magnitude higher than the norm in seconds, for a single shop - not to mention global events such as Black Friday. If this load is not handled correctly, a flash sale on one shop could cause outages for every shop on the platform.
-              </p>
-              <p>
-              Shopify was originally built to use a single MySQL database instance, eventually evolving to use multiple read replicas with a single writer. However, the  MySQL writer was still a single point of failure: if the writer went down, it could result in a platform-wide outage, preventing checkouts and resulting in significant lost revenue across all shops.
-              </p>
-
-              <p>
-              Since most data in our system is tied to a single shop, it was decided that sharding our database was the best solution. This provides resiliency, since traffic is spread across shards, with Shops being moved from shard to shard in order to even out traffic; and scalability, since new shards can be created on-demand to handle new shops. However, some data needs to be shared across shops. The functions relying on this data are, for the most part, being split off into microservices.
               </p>
             </li>
           </div>
