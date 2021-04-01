@@ -15,6 +15,10 @@ span.name {
   font-size: 200px;
   color: chartreuse;
 }
+span.description {
+  font-size: 3.5em;
+  color: #7b14ff;
+}
 
 a {
   color: deeppink;
